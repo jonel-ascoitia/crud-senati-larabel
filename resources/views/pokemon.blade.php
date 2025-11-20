@@ -2,14 +2,15 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <title>20 Pokémon con cURL</title>
+    <title>20 Pokémon </title>
+    
     
 </head>
 <body>
 
-<h2>Lista de los primeros 20 Pokémon</h2>
+<h2>Lista de los 20 Pokémon</h2>
 
-<table>
+<table class="table" border=1>
     <tr>
         <th>ID</th>
         <th>Nombre</th>
