@@ -39,3 +39,8 @@ Route::post('/user/store', [UserControler::class,'store']);
 
 #ELIMINAR USUARIO
 Route::get('/user/delete', action: [UserControler::class,'delete']);
+
+
+Route::get('/pokemon', function () {
+    return view('pokemon');
+});
